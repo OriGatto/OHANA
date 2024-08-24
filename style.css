@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto&display=swap');
+
+body{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    min-height: 100vh;
+    background-image: url(img/keram.jpg);
+}
+
+.links{
+    text-decoration: none;
+}
+
+#zagolovok{
+    text-align: center;
+    font-size: 30px;
+}
+
+.zaggg{
+    margin-bottom: 0px;
+}
+
+.zagg{
+    margin-top: 0px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: center;
+    /*display: grid;*/
+}
+
+.photo{
+    border-radius: 30px;
+    box-shadow: -20px 15px 15px;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border: 2px solid white;
+    /*margin-right: 25px;*/
+}
+
+.item{
+    margin-left: 50px;
+    margin-right: 100px;
+    align-items: center;
+    font-size: 23px;
+    border-radius: 30px;
+    border: 2px solid white;
+    width: 530px;
+    height: 490px;
+    padding: 5px;
+    margin-bottom: 50px;
+    box-shadow: 20px 15px 15px;
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1315px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /*300-700*/
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Teko:wght@300..700&display=swap');/*300-700*/
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&family=Teko:wght@300..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap');/*100-900*/
+
+    body{
+        /*border-style: none;*/
+        margin: 0px;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    .golova{
+        font-size: 25px;
+    }
+
+    .podgolova{
+        font-size: 25px;
+    }
+
+    footer{
+        font-size: 25px;
+    }
+
+
+    .container{
+        /*flex-direction: column;*/
+        justify-content: space-between;
+    }
+
+    .photo{
+        margin-left: 5px;
+        width: 190px;
+        height: 190px;
+        border-radius: 10px;
+    }
+
+    .item{
+        margin-left: 0px;
+        margin-right: 5px;
+        box-shadow: 20px 15px 15px;;
+        width: 190px;
+        height: 188px;
+        overflow: scroll;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        padding: 1px;
+    }
+
+    .text{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: "Genos", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 399px) {
+    
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /*300-700*/
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Teko:wght@300..700&display=swap');/*300-700*/
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&family=Teko:wght@300..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap');/*100-900*/
+
+    body{
+        /*border-style: none;*/
+        margin: 0px;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    .golova{
+        font-size: 20px;
+    }
+
+    .podgolova{
+        font-size: 25px;
+    }
+
+    footer{
+        font-size: 25px;
+    }
+
+    .container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .photo{
+        margin-left: 0px;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: -15px -10px 25px;
+        margin-bottom: 10px;
+    }
+
+    .item{
+        margin-left: 0px;
+        margin-right: 0px;
+        box-shadow: -15px -10px 25px;
+        width: 300px;
+        height: 300px;
+        overflow: scroll;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        padding: 2px;
+    }
+
+    .text{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: "Genos", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+    }
+}
