@@ -6,6 +6,9 @@ body{
     font-style: normal;
     min-height: 100vh;
     background-image: url(img/keram.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .links{
